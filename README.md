@@ -5,6 +5,9 @@
 <h3 align="center">Больше моих плагинов и более подробная информация на моем сайте</h3>
 <h2 align="center"><a href="https://genesis-cs.space/menuconstructor/menumanager/plugins/">GENESIS-CS.SPACE</a></h2>
 <a href="https://genesis-cs.space/menuconstructor/menumanager/plugins/">
+  <img src="images/PMMPluginsMini.jpg" alt="PMM MenuManager — many plugins in one place">
+</a>
+<a href="https://genesis-cs.space/menuconstructor/menumanager/plugins/">
   <img src="images/HGR.jpg" alt="Hook Grab Rope — many plugins in one place">
 </a>
 
