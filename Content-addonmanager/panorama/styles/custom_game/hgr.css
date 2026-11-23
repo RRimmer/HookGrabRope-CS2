@@ -1,0 +1,32 @@
+.screen{width:100%;height:100%;}
+.window{horizontal-align:center;vertical-align:center;width:540px;flow-children:down;background-color:#152126fa;border:1px solid #526166;padding:18px;}
+.column{flow-children:down;width:100%;}
+.row{flow-children:right;width:100%;margin-bottom:4px;}
+Label{color:#edf3ef;font-family:Stratum2;font-size:20px;vertical-align:center;}
+.title{font-size:32px;font-weight:bold;width:fill-parent-flow(1);}
+.subtitle{color:#ffde76;font-size:23px;margin:8px 0px;}
+.caption{width:270px;}
+.value{width:64px;text-align:center;}
+Button{background-color:#304346;padding:4px 12px;margin-right:5px;}
+Button:hover{background-color:#567278;}
+.hidden{visibility:collapse;}
+.preview{height:60px;width:100%;background-color:#0d181c;flow-children:right;padding-left:46px;}
+.segment{height:3px;width:110px;vertical-align:center;background-color:white;}
+.curved .first{transform:rotateZ(-12deg) translateY(10px);}
+.curved .middle{transform:rotateZ(-1deg);}
+.curved .last{transform:rotateZ(11deg) translateY(9px);}
+.tone-0 .segment{background-color:#FF0000;}
+.tone-1 .segment{background-color:#FFFF00;}
+.tone-2 .segment{background-color:#00BFFF;}
+.tone-3 .segment{background-color:#00FF88;}
+.tone-4 .segment{background-color:#FF77CC;}
+.tone-5 .segment{background-color:#FFFFFF;}
+.tone-6 .segment{background-color:#FF9900;}
+.border-0{border:2px solid #FF0000;}
+.border-1{border:2px solid #FFFF00;}
+.border-2{border:2px solid #00BFFF;}
+.border-3{border:2px solid #00FF88;}
+.border-4{border:2px solid #FF77CC;}
+.border-5{border:2px solid #FFFFFF;}
+.border-6{border:2px solid #FF9900;}
+.border-7{border:2px solid #ffc060;border-top-color:#ff6380;border-right-color:#69e796;border-bottom-color:#68caff;}

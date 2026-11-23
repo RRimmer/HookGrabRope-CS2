@@ -1,0 +1,7 @@
+{
+  "limit": "{0}: no uses available.",
+  "used": "{0}: uses remaining this round: {1}.",
+  "caught": "You grabbed {0}.",
+  "held": "You were grabbed by {0}.",
+  "hold-bind": "{0} is in hold mode. Use this bind:"
+}

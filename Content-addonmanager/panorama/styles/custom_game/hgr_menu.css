@@ -1,0 +1,23 @@
+.screen{width:100%;height:100%;}.window{vertical-align:center;horizontal-align:center;flow-children:down;}.vip{width:790px;background-color:#30271cee;border:1px solid #8c724b;border-radius:12px;}.admin{width:460px;background-color:#1c1012f0;border:1px solid #5c2021;border-radius:5px;}.head,.option,.footer{flow-children:right;width:100%;}.vip .head{padding:18px 20px;background-color:#483b28e8;}.badge{background-color:#e9b557;border-radius:10px;padding:14px;}.badge Label{color:#241b09;font-size:24px;}.identity{flow-children:down;width:fill-parent-flow(1);margin-left:14px;}.nick{font-size:25px;}.group{color:#f4cf82;}.admin .head{padding:12px 16px;background-color:#b3201f;}.brand{font-size:15px;letter-spacing:1px;}.body{width:100%;flow-children:down;padding:14px 18px;}.title{font-size:23px;margin-bottom:14px;}.option{min-height:40px;padding:8px 12px;border:2px solid transparent;}.vip .option{margin-bottom:5px;background-color:#504b44cd;border-radius:7px;border-color:#696059;}.vip .option:hover{background-color:#665335;}.admin .option:hover{background-color:#511c20;}.key,.spacer{width:fill-parent-flow(1);}.value,.page{color:#c7bbaa;}.footer{padding:8px 13px;border-top:1px solid #695a4733;}.nav{background-color:#55504b;padding:5px 10px;border-radius:4px;}.admin .nav{background-color:#32191a;}.page{margin:3px 8px;}Label{font-family:Stratum2;font-weight:bold;font-size:18px;color:#f3ece3;vertical-align:center;}.hidden{visibility:collapse;}
+.window .option.tone-rainbow{border-color:#ff8899;border-left-color:#ff5252;border-bottom-color:#49d888;border-right-color:#88aaff;}
+.window.admin{horizontal-align:left;margin-left:40px;background-color:#160a0bf2;border:1px solid #5c1a1c;border-radius:6px;box-shadow:#000000b0 0px 14px 40px 0px;}
+.admin .head{height:42px;padding:0px 16px;}.admin .brand{font-size:13px;letter-spacing:1.8px;color:#ffe9e6;}
+.admin .crumb{font-size:13px;color:#b79c99;}.admin .title{font-size:21px;margin-bottom:10px;}.admin .key{font-size:16px;}.admin .value{font-size:13px;color:#bea5a3;}
+.admin .footer{height:42px;padding:4px 9px;}.admin .nav{background-color:transparent;}.admin .nav:hover{background-color:#461718;}.admin .option:hover{border-left:3px solid #ff4a41;}
+.window .option.hex-ffffff{border-color:#FFFFFF;}
+.window .option.hex-000000{border-color:#000000;}
+.window .option.hex-ff0000{border-color:#FF0000;}
+.window .option.hex-00ff00{border-color:#00FF00;}
+.window .option.hex-ffff00{border-color:#FFFF00;}
+.window .option.hex-0000ff{border-color:#0000FF;}
+.window .option.hex-808000{border-color:#808000;}
+.window .option.hex-ff00ff{border-color:#FF00FF;}
+.window .option.hex-00ffff{border-color:#00FFFF;}
+.window .option.hex-c0c0c0{border-color:#C0C0C0;}
+.window .option.hex-808080{border-color:#808080;}
+.window .option.hex-800000{border-color:#800000;}
+.window .option.hex-800080{border-color:#800080;}
+.window .option.hex-008080{border-color:#008080;}
+.window .option.hex-000080{border-color:#000080;}
+.window .option.tone-goldenrod{border-color:#DAA520;}
+.window .option.tone-cornflowerblue{border-color:#6495ED;}

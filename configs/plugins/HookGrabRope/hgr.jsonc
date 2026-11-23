@@ -1,0 +1,93 @@
+{
+  // 1. БАЗОВЫЕ ЗНАЧЕНИЯ ЯДРА
+  // На них ссылаются "default" и false из vip.json; их же получает Admin.
+  "Defaults": {
+    "Hook": {
+      "Enabled": true,
+      "Amount": -1,            // за раунд; -1 = безлимит
+      "Color": "Red",
+      "EffectLine": "Laser",   // Beam | Laser | Lasso | Chain
+      "Width": 2.5,
+      "Range": 8000,           // дальность зацепа (длина трассы)
+      "Distance": 8000,        // на сколько юнитов игрока можно подтянуть
+      "Step up": 50,
+      "Step down": 50,
+      "Pull": true,            // true | false | "Self"
+      "Sticking": "Self",      // см. 5.2
+      "SoundHook": "sounds/hgr/fathom_a3_harpoon_cast.mp3",     // звук при использовании крюка
+      "SoundHookPull": "sounds/hgr/lash_a2_grapple_cast.mp3"    // только при Pull = true
+    },
+    "Grab": {
+      "Enabled": true,
+      "Amount": -1,
+      "Color": "Yellow",
+      "EffectLine": "Chain",
+      "Width": 2.5,
+      "Range": 550,            // дальность подбора цели
+      "Distance": 550,         // максимальная дистанция удержания
+      "Start.Distance": 150,   // дистанция сразу после захвата (если Pull = true)
+      "Strength": 900,         // сила броска
+      "Step up": 25,           // колесо вверх: цель дальше
+      "Step down": 25,         // колесо вниз: цель ближе
+      "Pull": true,            // true — сразу притянуть к Start.Distance
+      "Sticking": true,
+      "SoundGrabCapture": "sounds/hgr/holliday_a4_lasso_throw.mp3",        // бросок лассо (старт Grab)
+      "SoundGrabCaught": "sounds/hgr/holliday_a4_lasso_impact.mp3",        // удачно поймал цель
+      "SoundGrabHold": "sounds/hgr/holliday_a4_lasso_captured_lp.mp3"      // зациклено, пока не отпустишь
+    },
+    "Rope": {
+      "Enabled": true,
+      "Amount": -1,
+      "Color": "Teal",
+      "EffectLine": "Beam",
+      "Width": 2.5,
+      "Range": 8192,            // ограничивается Settings.MaxRange
+      "Pull": false,           // колесо изменяет длину троса
+      "Step up": 50,
+      "Step down": 50,
+      "Sticking": true,
+      "SoundRope": "sounds/hgr/latched.mp3",                   // звук при зацепе
+      "SoundRopeOut": "sounds/hgr/lash_a2_grapple_end.mp3"     // звук при отпускании
+    }
+  },
+
+  // 2. ПРАВА АДМИНИСТРАТОРОВ (берут значения из Defaults)
+  "Admin": {
+    "Enabled": true,
+    "Flag": "@css/root"
+  },
+
+  // 3. СИСТЕМНЫЕ НАСТРОЙКИ
+  "Settings": {
+    "Priority": "Admin",       // при конфликте ролей: "Admin" | "Vip"
+    "Step": 50,                // шаг меню для Distance / Start.Distance / Strength
+    "MaxWidth": 5,
+    "MaxRange": 8000,
+    "MaxDistance": 8000,       // Distance у Grab и Hook
+    "MaxStartDistance": 8000,
+    "MaxStrength": 1000,
+    "MaxStep": 100,            // максимум для Step up / Step down
+    "Chat": true,              // сообщения в чате по умолчанию
+    "Toast": true,             // боковые уведомления PMM_VIPCore по умолчанию
+    "Sounds": true             // false = звуки выключены полностью; другого способа отключить звук нет
+  },
+
+  // 4. ПАЛИТРА И ЧАСТИЦЫ
+  "PaletteDef": [ "default", "rainbow", "team" ],
+  "PaletteHex": [
+    {
+      "White": "#FFFFFF", "Black": "#000000", "Red": "#FF0000", "Green": "#00FF00",
+      "Yellow": "#FFFF00", "Blue": "#0000FF", "Olive": "#808000", "Lime": "#00FF00",
+      "Magenta": "#FF00FF", "Cyan": "#00FFFF", "Silver": "#C0C0C0", "Grey": "#808080",
+      "Maroon": "#800000", "Purple": "#800080", "Teal": "#008080", "Navy": "#000080"
+    }
+  ],
+  "Particles": [
+    {
+      "Beam": "materials/sprites/laserbeam.vmat",   // штатный CS2 laserbeam (entity "beam"), как в 0.1.0
+      "Laser": "particles/hgr/laser.vpcf",
+      "Lasso": "particles/hgr/lasso.vpcf",
+      "Chain": "particles/hgr/chain.vpcf"
+    }
+  ]
+}

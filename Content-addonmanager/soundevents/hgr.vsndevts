@@ -1,0 +1,59 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	"HGR.fathom_a3_harpoon_cast" =
+	{
+		type = "csgo_mega"
+		volume = 0.75
+		soundlevel = 70
+		pitch = 1.0
+		vsnd_files_track_01 = "sounds/hgr/fathom_a3_harpoon_cast.vsnd"
+	}
+	"HGR.holliday_a4_lasso_captured_lp" =
+	{
+		type = "csgo_mega"
+		volume = 0.75
+		soundlevel = 70
+		pitch = 1.0
+		vsnd_files_track_01 = "sounds/hgr/holliday_a4_lasso_captured_lp_loop.vsnd"
+	}
+	"HGR.holliday_a4_lasso_impact" =
+	{
+		type = "csgo_mega"
+		volume = 0.75
+		soundlevel = 70
+		pitch = 1.0
+		vsnd_files_track_01 = "sounds/hgr/holliday_a4_lasso_impact.vsnd"
+	}
+	"HGR.holliday_a4_lasso_throw" =
+	{
+		type = "csgo_mega"
+		volume = 0.75
+		soundlevel = 70
+		pitch = 1.0
+		vsnd_files_track_01 = "sounds/hgr/holliday_a4_lasso_throw.vsnd"
+	}
+	"HGR.lash_a2_grapple_cast" =
+	{
+		type = "csgo_mega"
+		volume = 0.75
+		soundlevel = 70
+		pitch = 1.0
+		vsnd_files_track_01 = "sounds/hgr/lash_a2_grapple_cast.vsnd"
+	}
+	"HGR.lash_a2_grapple_end" =
+	{
+		type = "csgo_mega"
+		volume = 0.75
+		soundlevel = 70
+		pitch = 1.0
+		vsnd_files_track_01 = "sounds/hgr/lash_a2_grapple_end.vsnd"
+	}
+	"HGR.latched" =
+	{
+		type = "csgo_mega"
+		volume = 0.75
+		soundlevel = 70
+		pitch = 1.0
+		vsnd_files_track_01 = "sounds/hgr/latched.vsnd"
+	}
+}

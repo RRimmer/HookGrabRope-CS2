@@ -1,0 +1,10 @@
+{
+  "PMM_BuyMenu_HandleDropWeapon": {
+    "comment": "Server handler of the 'drop' player command (G). Called from the player-command dispatcher right after it matches the string \"drop\". Args: (this, const CCommand& args). Found in libserver.so sha256 ac63a1513aac0d7716aa7920d5ee8728feb9953600aea79f3c2c92780ba8eae7 at 0x15a65e0 (one match). Other names: CCSPlayer_HandleDropWeapon.",
+    "signatures": {
+      "library": "server",
+      "windows": null,
+      "linux": "55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC ? 48 8D 05 ? ? ? ? 48 8B 00 48 85 C0 74 ? 80 B8 ? ? ? ? 00 0F 85 ? ? ? ? 41 8B 94 24 ? ? ? ? 83 FA FF 0F 84 ? ? ? ? 48 8B 35"
+    }
+  }
+}
